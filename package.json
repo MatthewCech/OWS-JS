@@ -1,0 +1,14 @@
+{
+  "name": "ows-server",
+  "version": "1.0.0",
+  "description": "a javascript server for accumulating information and serving requests",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "matthew cech",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
