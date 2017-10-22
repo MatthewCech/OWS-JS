@@ -10,7 +10,7 @@ example at the bottom.
 Save the following server in example.js:
 */
 
-let host_ip   = '127.0.0.1';
+let host_ip   = '52.24.114.192';
 let host_port = 8004;
 
 
@@ -21,7 +21,7 @@ var server = net.createServer(function(socket) {
 	socket.pipe(socket);
 });
 
-server.listen(8004, '127.0.0.1');
+server.listen(host_port, host_ip);
 console.log('listening on ' + host_ip + ', port ' + host_port);
 
 /*
