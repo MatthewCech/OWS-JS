@@ -10,8 +10,8 @@ example at the bottom.
 Save the following server in example.js:
 */
 
-let host_ip   = '127.0.0.1';
-let host_port = 8004;
+let host_ip   = '127.0.0.1'; // Internal IP   - Where we listen for stuff
+let host_port = 13001;       // Internal port - Must be forwarded to with NGINX
 
 
 var net = require('net');
