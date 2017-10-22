@@ -10,6 +10,10 @@ example at the bottom.
 Save the following server in example.js:
 */
 
+let host_ip   = '127.0.0.1';
+let host_port = 8004;
+
+
 var net = require('net');
 
 var server = net.createServer(function(socket) {
@@ -18,6 +22,7 @@ var server = net.createServer(function(socket) {
 });
 
 server.listen(8004, '127.0.0.1');
+console.log('listening on ' + host_ip + ', port ' + host_port);
 
 /*
 And connect with a tcp client from the command line using netcat, the *nix 
